@@ -1,0 +1,21 @@
+.purple-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border: 0.125rem solid #6e50d2;
+  padding: 10px 50px;
+  background-color: #6e50d2;
+  color: #fdfdfd;
+  transition: .2s ease background-color, .2s ease border-color;
+
+  &:disabled {
+    cursor: default;
+    background-color: lighten(#6e50d2, 7.5%);
+    border-color: lighten(#6e50d2, 7.5%);
+  }
+
+  &:hover:not(:disabled) {
+    background-color: darken(#6e50d2, 5%);
+    border-color: darken(#6e50d2, 5%);
+  }
+}

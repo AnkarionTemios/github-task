@@ -1,0 +1,18 @@
+.forks-table {
+  .ReactTable {
+    .name-cell, .owner-cell, .stars-cell, .link-cell {
+      text-align: center;
+      color: #000000;
+
+      a {
+        color: #000000;
+        text-decoration: none;
+        transition: .2s ease color;
+
+        &:hover {
+          color: lighten(#000000, 60%);
+        }
+      }
+    }
+  }
+}

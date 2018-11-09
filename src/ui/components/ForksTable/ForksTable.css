@@ -1,0 +1,9 @@
+.forks-table .ReactTable .name-cell, .forks-table .ReactTable .owner-cell, .forks-table .ReactTable .stars-cell, .forks-table .ReactTable .link-cell {
+  text-align: center;
+  color: #000000; }
+  .forks-table .ReactTable .name-cell a, .forks-table .ReactTable .owner-cell a, .forks-table .ReactTable .stars-cell a, .forks-table .ReactTable .link-cell a {
+    color: #000000;
+    text-decoration: none;
+    transition: .2s ease color; }
+    .forks-table .ReactTable .name-cell a:hover, .forks-table .ReactTable .owner-cell a:hover, .forks-table .ReactTable .stars-cell a:hover, .forks-table .ReactTable .link-cell a:hover {
+      color: #999999; }

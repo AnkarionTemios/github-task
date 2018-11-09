@@ -1,0 +1,28 @@
+.text-input {
+  outline: none;
+  border: 1px #edeff0 solid;
+  border-radius: 1px;
+  background-color: #edeff0;
+  font-size: 14px;
+  padding: 12.5px 1rem;
+  overflow: hidden; }
+  .text-input:-moz-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal; }
+  .text-input::-moz-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal; }
+  .text-input:-ms-input-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal; }
+  .text-input::placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal; }
