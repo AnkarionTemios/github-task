@@ -20,7 +20,6 @@ class ResultsPage extends Component {
       this.props.fetchForks(parsedQuery.owner, parsedQuery.repo)
 
       if (parsedQuery.page) {
-        console.log(parsedQuery.page)
         this.setState({ page: parsedQuery.page })
       }
     }
